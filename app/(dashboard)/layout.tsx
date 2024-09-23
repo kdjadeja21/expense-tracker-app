@@ -12,9 +12,7 @@ const DashboardLayout = ({ children }: Props) => {
   return (
     <>
       <Header />
-      <main className="px-3 lg:px-14">
-        <Button onClick={onOpen}>Add an account</Button>
-      </main>
+      <main className="px-3 lg:px-14">{children}</main>
     </>
   );
 };

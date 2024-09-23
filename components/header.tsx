@@ -1,5 +1,3 @@
-"use client";
-
 import { Loader2 } from "lucide-react";
 import { ClerkLoaded, ClerkLoading, UserButton } from "@clerk/nextjs";
 import { HeaderLogo } from "./header-logo";
