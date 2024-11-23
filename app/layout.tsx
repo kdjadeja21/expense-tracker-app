@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 
 import { Toaster } from "@/components/ui/sonner";
-import { SheetProvider } from "@/providers/sheet-provder";
+import { SheetProvider } from "@/providers/sheet-provider";
 import { QueryProvider } from "@/providers/query-provider";
 
 import "./globals.css";
